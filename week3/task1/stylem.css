@@ -1,0 +1,40 @@
+.all{
+width:100%;
+display:flex;
+color:#ffffff;
+}
+a{
+text-decoration:none;
+}
+.cdec a{
+color:#ffffff;
+}
+.channel a{
+color:grey;
+}
+.clogo{
+width:22%;
+}
+.cdec{
+width:78%;
+}
+.all .clogo img{
+border-radius:55%;
+width:50%;
+}
+table{
+font-size:15px;
+font-family:calibri;
+}
+.channel{
+color:grey;
+}
+h2{
+margin:13px;
+color:#ffffff;
+font-family:san serif;
+
+}
+h2 a{
+color:#ffffff;
+}
