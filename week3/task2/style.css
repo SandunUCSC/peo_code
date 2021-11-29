@@ -2,6 +2,17 @@ body{
 margin:0;
 }
 
+.nav a:hover{
+color:red;
+}
+
+.nav button:hover{
+color:red;
+background-color:white;
+border-color:red;
+font-width:bold;
+}
+
 a{
 color:white;
 text-decoration:none;
@@ -55,6 +66,11 @@ font-size:75px;
 font-weight:bold;
 
 }
+.home-text a:hover{
+color:#cc2617;
+}
+
+
 .clear{
 clear:both;
 }
@@ -72,6 +88,11 @@ margin-bottom:80px;
 margin-left:80px;
 margin-top:100px;
 }
+.abt-img img:hover{
+transform:scale(1.05);
+}
+
+
 .abt-text{
 width:50%;
 
@@ -82,6 +103,12 @@ font-size:75px;
 color:white;
 margin-top:200px;
 }
+.abt-text a:hover{
+color:#cc2617;
+}
+
+
+
 .abt-text .p2{
 font-family:calibri;
 color:white;
@@ -108,27 +135,40 @@ font-family:calibri;
 cursor:pointer;
 }
 
+.abtbtn:hover{
+border:solid;
+color:red;
+background-color:white;
+border-color:red;
+font-width:bold;
+}
+
+.gallery a:hover{
+color:#cc2617;
+}
+
 .gallery-item{
 width:100%;
 display:flex;
 
 
+
 }
 .item-1{
 width:25%;
-padding:10px;
+padding:20px;
 }
 .item-2{
 width:25%;
-padding:10px;
+padding:20px;
 }
 .item-3{
 width:25%;
-padding:10px;
+padding:20px;
 }
 .item-4{
 width:25%;
-padding:10px;
+padding:20px;
 }
 .gallery h1{
 color:#ffffff;
@@ -154,9 +194,21 @@ border:none;
 font-family:calibri;
 cursor:pointer;
 }
+
+.newsbtn:hover{
+border:solid;
+color:red;
+background-color:white;
+border-color:red;
+font-width:bold;
+}
+
 .bottom{
 background-color:#000000;
 }
 .bottom p{
 color:#c9756d;
+}
+.bottom img:hover{
+transform:scale(1.5);
 }
